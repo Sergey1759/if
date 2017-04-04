@@ -1,0 +1,265 @@
+
+body {
+    max-width: 100%;
+   width: 100%;
+    -webkit-animation-name: mena;
+    animation-name: mena;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    font-family: Trebuchet MS;
+    background-image: url(fon3.jpg);
+    background-attachment: fixed;
+    background-repeat: repeat-y;
+    background-size: 100%;
+   padding: 0px;
+    margin: 0px;
+}
+.menu { 
+    
+    position: fixed;
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    text-align: center;
+    background: rgb(24, 95, 255);
+    font-size: 17px;
+    color: #ffffff;
+     box-sizing: border-box;
+}
+.submenu{
+ 
+    margin: 0px;
+    width: 19%;
+   
+    display: inline-block;
+    padding: 7px 0px;
+    box-sizing: border-box;
+}
+.submenu:hover{
+    background: #1919fa;
+   
+}
+
+.menu a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+.text {
+    width: 70%;
+    margin: auto;
+}
+.footer {
+    margin-top: 5%;
+    color: #ffffff;
+   text-align: center;
+    width: 100%;
+   padding: 20px;
+    background: rgb(24, 95, 255);
+    font-weight: bold;
+    box-sizing: border-box;
+}
+p {
+    text-indent:  20px;
+    text-align: justify;
+    
+}
+.text img {
+    padding-top: 5%;
+    width: 100%;
+}
+.submenu ul{
+    
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+   display: none;
+    -webkit-animation-name: mena;
+    animation-name: mena;
+    -webkit-animation-duration: 0.7s;
+    animation-duration: 0.7s;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+}
+
+.submenu li{
+   padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+   list-style: none;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+     border-bottom: 2px solid #ffffff;
+    
+}
+.submenu li:hover{
+  background: rgb(22, 82, 193);
+   -webkit-animation-name: men;
+     animation-name: men;
+    -webkit-animation-duration: 0.6s;
+    animation-duration: 0.6s;
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+   
+}
+.submenu:hover ul{
+   
+    display: block;
+    width: 19%;
+    position: absolute;
+    top: 100%;
+   background: rgb(24, 95, 255);
+     padding: 0px;
+    box-sizing: border-box;
+}
+.chapka{
+    
+    z-index: 999;
+    padding-top:   1.5%;
+    background-image: url(uzo.png);
+    background-position: bottom;
+    background-repeat: repeat-x;
+    height: 38%;
+    width: 100%;
+    border-bottom: 3px solid #7373f2;
+    box-sizing: border-box;
+}
+.chapka img {
+    box-sizing: border-box;
+    height: 87%; 
+    width: 100%;
+     
+}
+.chapka:hover{
+    border-bottom: 3px solid #5100c1;
+}
+.virch{
+    font-family: cursive;
+    width: 50%;
+    margin: auto;
+}
+.virch p{
+    
+    font-weight: bold;
+    
+    text-align: right;
+}
+.text h1{
+    
+    color: rgb(24, 95, 255);
+    text-align: center;
+}
+.text h3 {
+    color: rgb(24, 95, 255);
+    text-align: center;
+}
+
+.photo p{
+    text-align: center;
+}
+.photo img {
+    width: 100%;
+    margin: auto;
+}
+.footer1 {
+    margin-top: 15%;
+    color: #ffffff;
+   text-align: center;
+    width: 100%;
+   padding: 20px;
+    background: rgb(24, 95, 255);
+    font-weight: bold;
+}
+.text {
+    clear: both;
+    padding: 20px;
+    
+    background: rgba(250, 250, 250, 0.65);
+}
+hr {
+    border: 1px solid #1919fa;
+}
+
+@media screen and (max-width: 768px) { 
+    .text{
+        background: red;
+    }
+
+}
+
+@-webkit-keyframes mena {
+    0% {
+        opacity: 0;
+    }
+    
+    100%{
+        opacity: 1;
+    }
+}
+@-webkit-keyframes men {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+        opacity: 0;
+    }
+    
+    25%{
+        -webkit-transform: rotate(7deg);
+        transform: rotate(7deg);
+    }
+    
+    50%{
+        
+        -webkit-transform: rotate(0deg);
+        opacity: 0.5;
+        transform: rotate(0deg);
+    }
+    
+    75%{
+        
+        -webkit-transform: rotate(-7deg);
+        
+        transform: rotate(-7deg);
+    }
+    100%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+        opacity: 1;
+    }
+}
+@keyframes men {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+        opacity: 0;
+    }
+    
+    25%{
+        -webkit-transform: rotate(7deg);
+        transform: rotate(7deg);
+    }
+    
+    50%{
+        
+        -webkit-transform: rotate(0deg);
+        opacity: 0.5;
+        transform: rotate(0deg);
+    }
+    
+    75%{
+        
+        -webkit-transform: rotate(-7deg);
+        
+        transform: rotate(-7deg);
+    }
+    100%{
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+        opacity: 1;
+    }
+}
