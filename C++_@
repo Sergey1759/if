@@ -1,0 +1,30 @@
+// Example program
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+  double function_1(double arr[5]){
+      for(int i = 0; i < 5; i++){
+    arr[i+1] = arr[i] - 1 / arr[i] - 1 * arr[i] * arr[i];
+}}
+
+double function_2 ( double arr[5]){
+    for(int i = 0; i < 5; i++){
+        cout<<arr[i]<<endl;
+        }
+}
+
+int main()
+{
+  
+double  arr1[5];
+  arr1[0] = 1;
+
+
+function_1(arr1);
+function_2(arr1);
+
+system("pause");
+
+}
